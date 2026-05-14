@@ -1,2 +1,38 @@
-body { background: #f0f2f5; }
-.container { box-shadow: 0 4px 15px rgba(0,0,0,0.1); border: 1px solid #ddd; }
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f0f2f5;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 100vh;
+}
+
+.container {
+background: white;
+padding: 30px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+border: 1px solid #ddd;
+}
+
+h1 {
+color: #6c63ff;
+}
+
+button {
+background: #ff6584;
+color: white;
+border: none;
+padding: 12px 25px;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+background: #e55a75;
+}
