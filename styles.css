@@ -1,0 +1,8 @@
+button {
+  background: #ff6584; 
+  padding: 12px 25px;   
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover { background: #e55a75; }
